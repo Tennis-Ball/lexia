@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Lexia",
+	"description": "Improves readability and reading time of online text",
+	"version": "1.0",
+	"background": {
+		"service_worker": "scripts/click.js"
+	},
+	"action": {
+		"default_icon": "images/lexia.png"
+	},
+	"permissions": ["activeTab", "scripting"]
+}
