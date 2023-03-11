@@ -3,6 +3,9 @@
 	"name": "Lexia",
 	"description": "Improves readability and reading time of online text",
 	"version": "1.0",
+	"icons": {
+		"48": "images/lexia.png"
+	},
 	"background": {
 		"service_worker": "scripts/click.js"
 	},
